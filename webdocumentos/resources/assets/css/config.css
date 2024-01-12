@@ -1,0 +1,232 @@
+:root {
+    --principal: #1f6764;
+    --principal_bg: #689b97;
+    --principal_hover: #207571;
+    --principal_transparent: #1f676386;
+    --secundario: #dc3545;
+    --correcto: #d2e7c9;
+    --secondary: #da1900;
+    --transparente: #000000bd;
+}
+
+.content-wrapper {
+    background-color: var(--principal_bg);
+    color: white;
+}
+
+.thead-dark,
+.thead-dark th {
+    border-color: #dee2e6!important;
+    background-color: var(--principal) !important;
+    color: white;
+}
+
+.content-wrapper .card,
+.content-wrapper p,
+.content-wrapper label {
+    color: black;
+}
+.bg-azul {
+    background-color: #2198e7;
+    color: white !important;
+}
+
+.secondary {
+    background: var(--secondary);
+    color: white;
+}
+
+.el-button--warning:focus,
+.el-button--warning:hover {
+    color: #1f2d3d !important;
+    background-color: var(--principal) !important;
+    border-color: var(--principal) !important;
+}
+
+.btn-warning {
+    color: #1f2d3d !important;
+    background-color: var(--principal) !important;
+    border-color: var(--principal) !important;
+}
+
+.btn-warning:hover {
+    background-color: var(--principal_hover) !important;
+}
+
+.border-orange {
+    border-color: var(--principal) !important;
+}
+
+.badge-warning {
+    color: white;
+}
+
+/* .el-button--warning.is-disabled,
+.el-button--warning.is-disabled:active,
+.el-button--warning.is-disabled:focus,
+.el-button--warning.is-disabled:hover {
+    color: #1f2d3d !important;
+    background-color: #C57A40 !important;
+    border-color: #C57A40 !important;
+} */
+
+.el-input.bg-warning input {
+    background-color: var(--principal);
+    font-weight: bold;
+    color: black;
+}
+
+.el-input.bg-dark input {
+    background-color: var(--secundario);
+    font-weight: bold;
+    color: white;
+}
+
+.text-secondary {
+    color: var(--secondary);
+}
+
+.login-page .login-box .card .card-header img {
+    width: 75%;
+}
+
+.vs-pagination--ul {
+    margin-bottom: 0px;
+}
+
+.modal.fade {
+    transition: 2s all;
+}
+
+.modal.fade.show {
+    padding-right: 17px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.479);
+    overflow: auto;
+}
+
+.el-avatar > img {
+    width: 100%;
+}
+
+.w-full {
+    width: 100% !important;
+}
+
+.is-invalid select,
+.is-invalid textarea,
+.is-invalid input {
+    border-color: #dc3545;
+}
+
+.el-upload.el-upload--text {
+    max-width: 100%;
+}
+
+.el-upload-dragger {
+    max-width: 100%;
+}
+
+input.form-control {
+    border: solid 1px #dcdfe6;
+}
+
+.el-input__inner:read-only {
+    cursor: not-allowed;
+}
+
+.readonly .el-input__inner {
+    background: rgb(237, 246, 250);
+}
+
+.contenedor_tabla tr.seleccionado {
+    background: rgb(237, 246, 250);
+    border: solid 2px var(--secundario);
+}
+
+/* .nav-sidebar > .nav-item.menu-is-opening.menu-open > a.nav-link {
+    border-bottom: solid 3px var(--secundario) !important;
+} */
+
+[class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link.active,
+[class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link.active:hover,
+[class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link.active:focus {
+    color: white;
+}
+
+[class*="sidebar-dark-"] {
+}
+
+/* .nav-flat.nav-sidebar
+    > .nav-item
+    > .nav-treeview
+    .nav-item:last-child
+    > .nav-link {
+    border-bottom: solid 3px var(--secundario) !important;
+} */
+
+.nav-flat.nav-sidebar > .nav-item .nav-treeview .nav-item > .nav-link,
+.nav-flat.nav-sidebar > .nav-item > .nav-treeview .nav-item > .nav-link {
+    border-left-color: var(--secundario);
+}
+
+.main-header {
+    border-bottom: none;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.layout-navbar-fixed
+    .wrapper
+    .sidebar-dark-info
+    .brand-link:not([class*="navbar"]),
+[class*="sidebar-dark"] .user-panel {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.559);
+}
+
+.content-header h1 {
+    /* text-shadow: 0 0 3px var(--secundario), 0 0 5px white!important; */
+    font-weight: bold;
+}
+
+:disabled,
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: white;
+    cursor: not-allowed;
+}
+
+.notificacion {
+    display: flex;
+    align-items: center;
+}
+
+.notificacion.active {
+    background-color: white;
+    color: black;
+}
+
+.desc_notificacion {
+    max-width: 120px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.page-item.active .page-link {
+    background-color: var(--principal);
+    border-color: var(--principal);
+}
+
+.small-box .informacion {
+    display: flex;
+    padding: 15px;
+}
+
+.small-box .informacion .icon img {
+    width: 140px;
+}
+
+.small-box .informacion .inner {
+    flex: 1;
+}
